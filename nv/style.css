@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    background-color:#E7DAD3;
+    font-family: Playfair Display;
+    font-size: 20px;
+}
+
+.logotype{
+    display: block;
+    margin: 0 auto;
+    margin-top:50px;
+    margin-bottom:20px ;
+}
+
+.navidation a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.navigations{
+    display: flex;
+    position: relative;
+    left: 50%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 30px;
+    width: 618px;
+}
+
+.navigations li{
+    position: relative;
+    left: -50%;
+}
+
+.main{
+    background-image: url(img/back-image.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+}
+
+.main p{
+    font-style: italic;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 33px;
+    margin-bottom: 42px;
+}
+
+.main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 44px;
+}
+
+.stages-of-the-visit{
+    
+}
+
+.poseshenia{
+    font-size:40px ;
+    align-self: center;
+    margin: 0 46%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.page-poset{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.page-poset-1{
+    background-color: #C7B0A2;
+    background-position: top 100px;
+    width: 300px;
+    margin-top: 100px;
+    top
+}
+
+.page-poset-1 h2{
+    background-color: gray;
+    border: 0px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.page-poset-1 img{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.page-poset-2{
+    background-color: #C7B0A2;
+    width: 300px;
+}
+
+.page-poset-2 h2{
+    background-color: gray;
+    border: 0px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 0;
+}
+
+.page-poset-2 img{
+    width: 300px;
+}
+
+.page-poset-3{
+    background-color: #C7B0A2;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.page-poset-3 h2{
+    background-color: gray;
+    border: 0px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 0;
+}
+
+.page-poset-3 img{
+    width: 300px;
+}
+
+.information{
+    background-color: #FBF8F6;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 35px;
+}
+
+.information h1{
+    text-align: center;
+}
+
+.information h2{
+    text-align: center;
+}
+
+.information p{
+    text-align: center;
+}
+
+.galery h1{
+    text-align: center;
+}
+
+.photo-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-1 img{
+    border-radius: 50%;
+}
+
+.photo-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+
+.photo-2 img{
+    border-radius: 50%;
+}
+
+.photo-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-3 img{
+    border-radius: 50%;
+}
+
+.contact{
+    margin: 35px 50px;
+    background-color: #FBF8F6;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.map{
+    display: flex;
+}
+
+.map img{
+    margin: 50px 50px;
+}
+
+.map div{
+    text-align: center;
+}
+
+footer{
+    background-color: #C7B0A2;
+    border-top: 5px solid black;
+}
+
+footer img{
+    display: block;
+    margin: 0 auto;
+}
+
+footer p{
+    text-align: center;
+}
